@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+
+div h1 {
+  font-weight: 900;
+  font-size: 3em;
+  display: inline-block;
+}
+
+div .header h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 5rem;
+  text-align: right;
+  color: rgb(57, 74, 180);
+  line-height: 4rem;
+}
+
+small a {
+  color: rgba(244, 211, 222, 0.99);
+}
+
+small a:hover {
+  color: #a798f1;
+}
+
+p {
+  font-size: 1.125rem;
+  color: rgb(57, 74, 180);
+  text-align: right;
+}
+
+.info {
+  line-height: 4px;
+  font-weight: 300;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: rgb(57, 74, 180) !important;
+  font-weight: 900;
+}
+
+nav a:hover {
+  color: rgba(255, 148, 175, 0.99) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo {
+  max-height: 45px;
+}
+
+.toppings {
+  background-image: url("https://img.selec7.com/k085i4ns/5dd50170-8104-4acc-8c52-125462563f08.png");
+  background-size: cover;
+  min-height: 510px;
+}
+
+.header {
+  padding: 100px 30px;
+}
+
+div .menu {
+  min-height: 500px;
+  padding: 0;
+}
+
+.blueburger {
+  background-color: rgb(57, 74, 180);
+  color: #fff;
+  width: 100%;
+  height: 255px;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: grid;
+  place-items: center;
+}
+
+.setmenu {
+  background-color: rgba(244, 211, 222, 0.99);
+  color: rgb(57, 74, 180);
+  width: 100%;
+  height: 255px;
+  padding: 0;
+  text-transform: uppercase;
+  display: grid;
+  place-items: center;
+}
+
+ul li,
+ul {
+  padding: 0 0 0 2px;
+  margin: 0;
+  list-style: none;
+  font-weight: 500;
+}
+
+div .btn {
+  background-color: rgba(255, 148, 175, 0.99);
+  padding: 8px 30px;
+  border: none;
+  color: #fff;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+div .toppings {
+  display: flex;
+  align-items: center;
+}
+
+div .btn:focus {
+  outline: none;
+}
+
+div .btn:hover {
+  background-color: #a798f1;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+
+div .blueMenu {
+  background-color: rgb(57, 74, 180);
+  border-radius: 15px;
+}
+
+div .pinkMenu {
+  background-color: rgba(244, 211, 222, 0.99);
+  border-radius: 15px;
+}
+
+.rowGap {
+  gap: 40px;
+}
+
+.colGap {
+  margin: 40px;
+}
+
+.menuItems {
+  text-transform: uppercase;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.whiteTitle {
+  color: white;
+}
+
+.purpleTitle {
+  color: rgb(57, 74, 180);
+}
+
+.friesMenu {
+  background-image: url("https://img.selec7.com/k085i4ns/24fa4b67-782e-42f0-997e-2b96a31ef06f.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.sideMenu {
+  background-image: url("https://img.selec7.com/k085i4ns/ed85766d-ca41-407d-8594-559c3e21d0eb.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.drinksMenu {
+  background-image: url("https://img.selec7.com/k085i4ns/ae0d8798-fb2d-466a-a5bc-6bf82af44534.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.saucesMenu {
+  background-image: url("https://img.selec7.com/k085i4ns/c7dfb92f-31f1-453b-8641-3ffa0af90fde.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(57, 74, 180);
+  color: #fff;
+}
