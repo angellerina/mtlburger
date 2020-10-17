@@ -190,3 +190,70 @@ footer {
   background-color: rgb(57, 74, 180);
   color: #fff;
 }
+
+.hero-title {
+  position: relative;
+  animation: animateleft 1.6s;
+}
+@keyframes animateleft {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.animateTop {
+  position: relative;
+  animation: animatetop 1.5s;
+}
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.animateBottom {
+  position: relative;
+  animation: animatebottom 2s;
+}
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+a:hover {
+  animation: pulse 1s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+ul li:hover {
+  transform: scale(1.05);
+  transition: all ease 500ms;
+}
